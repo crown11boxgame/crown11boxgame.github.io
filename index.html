@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Box Game - Official Download</title>
+  <meta name="description" content="Download Box Game now! Play on Android/iOS with real-time multiplayer, secure gameplay, and over 50 million players worldwide."/>
+   <!-- 添加规范链接 -->
+  <link rel="canonical" href="https://boxgamedownload.com">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Swiper -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Iconify -->
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  
+  <!-- Custom Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#165DFF',
+            secondary: '#36CFC9',
+            accent: '#FF7D00',
+            success: '#52C41A',
+            warning: '#FAAD14',
+            danger: '#FF4D4F',
+            dark: '#1D2129',
+            light: '#F2F3F5'
+          },
+          fontFamily: {
+            inter: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-100 font-inter">
+
+<!-- Header Navigation -->
+<header class="bg-white shadow">
+  <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+    <a href="#" class="text-xl font-bold text-gray-800">Box Game</a>
+    <nav class="hidden md:block">
+      <ul class="flex space-x-4">
+        <li><a href="#features" class="text-gray-600 hover:text-gray-800">Features</a></li>
+        <li><a href="#download" class="text-gray-600 hover:text-gray-800">Download</a></li>
+        <li><a href="#reviews" class="text-gray-600 hover:text-gray-800">Reviews</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="py-12 bg-white">
+  <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+    <!-- Left Content -->
+    <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+      <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+        Box Game - Download & Play Now
+      </h1>
+      <p class="text-gray-600 mb-6">
+        The official mobile game with real-time battles, multiple game modes, and over 50 million players worldwide!
+      </p>
+      <!-- Rating & Downloads -->
+      <div class="flex items-center mb-4">
+        <div class="flex text-yellow-400">
+          <iconify-icon icon="mdi:star" class="text-xl"></iconify-icon>
+          <iconify-icon icon="mdi:star" class="text-xl"></iconify-icon>
+          <iconify-icon icon="mdi:star" class="text-xl"></iconify-icon>
+          <iconify-icon icon="mdi:star" class="text-xl"></iconify-icon>
+          <iconify-icon icon="mdi:star-half-full" class="text-xl"></iconify-icon>
+        </div>
+        <span class="text-xl font-bold text-gray-800 ml-2">4.9</span>
+        <span class="text-gray-500 ml-2">(500,000+ Reviews)</span>
+      </div>
+      <div class="text-gray-500 mb-8">50+ Million Downloads • 18+ Age Rating</div>
+      <!-- Download Buttons -->
+      <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+         <a href="https://h5.crown11.club?root=204ec05" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded shadow flex items-center justify-center">
+          <iconify-icon icon="simple-icons:googleplay" class="mr-2"></iconify-icon> Download on Google Play
+        </a>
+        <a href="https://h5.crown11.club?root=204ec05" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded shadow flex items-center justify-center">
+          <iconify-icon icon="simple-icons:appstore" class="mr-2"></iconify-icon> Download on App Store
+        </a>
+      </div>
+      <div class="mt-4 text-gray-500">
+        Or <a href="#" class="text-blue-500 hover:underline">download APK</a> (Official Secure Version)
+      </div>
+    </div>
+    <!-- Right App Icon -->
+    <div class="md:w-1/2 flex justify-center">
+      <img 
+        src="https://img.picui.cn/free/2025/06/11/6849289c17254.jpg" 
+        alt="Box Game Icon" 
+        class="w-48 h-48 object-cover rounded-lg shadow-lg"
+      />
+    </div>
+  </div>
+</section>
+
+<!-- Screenshots Carousel -->
+<section class="py-8">
+  <div class="container mx-auto px-4">
+    <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">In-Game Screenshots</h2>
+    <!-- Swiper Container -->
+    <div class="swiper" id="screenshot-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img 
+            src="https://img.picui.cn/free/2025/06/11/6849289bdfcdc.jpg" 
+            alt="Game Screenshot 1" 
+            class="w-full rounded-lg shadow-md"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img 
+            src="https://img.picui.cn/free/2025/06/11/6849289c00c68.jpg" 
+            alt="Game Screenshot 2" 
+            class="w-full rounded-lg shadow-md"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img 
+            src="https://img.picui.cn/free/2025/06/11/6849289b5b2b9.jpg" 
+            alt="Game Screenshot 3" 
+            class="w-full rounded-lg shadow-md"
+          />
+        </div>
+      </div>
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Navigation Arrows -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <script>
+      // Initialize Swiper
+      new Swiper('#screenshot-swiper', {
+        loop: true,
+        pagination: { el: '.swiper-pagination', clickable: true },
+        navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+        breakpoints: {
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        }
+      });
+    </script>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="py-12 bg-white">
+  <div class="container mx-auto px-4">
+    <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">Core Features</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 text-center border rounded-lg hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+        <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <iconify-icon icon="carbon:game" class="text-2xl text-blue-500"></iconify-icon>
+        </div>
+        <h3 class="text-lg font-semibold mb-2">Diverse Gameplay</h3>
+        <p class="text-gray-600">Multiple game modes to keep you entertained.</p>
+      </div>
+      <div class="p-6 text-center border rounded-lg hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <iconify-icon icon="mdi:speedometer" class="text-2xl text-green-500"></iconify-icon>
+        </div>
+        <h3 class="text-lg font-semibold mb-2">Smooth Performance</h3>
+        <p class="text-gray-600">Low latency, no lag.</p>
+      </div>
+      <div class="p-6 text-center border rounded-lg hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+        <div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+          <iconify-icon icon="mdi:security" class="text-2xl text-red-500"></iconify-icon>
+        </div>
+        <h3 class="text-lg font-semibold mb-2">Secure Protection</h3>
+        <p class="text-gray-600">Encrypted data, safe gaming.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Reviews Section -->
+<section id="reviews" class="py-12 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <h2 class="text-2xl font-bold text-gray-800 mb-8 text-center">Player Reviews</h2>
+    
+    <!-- Rating Summary -->
+    <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+      <div class="flex flex-col md:flex-row">
+        <!-- Overall Rating -->
+        <div class="md:w-1/3 text-center md:text-left mb-6 md:mb-0">
+          <div class="text-5xl font-bold text-gray-800 mb-2">4.9</div>
+          <div class="flex justify-center md:justify-start text-yellow-400 mb-2">
+            <iconify-icon icon="mdi:star" class="text-xl"></iconify-icon>
+            <iconify-icon icon="mdi:star" class="text-xl"></iconify-icon>
+            <iconify-icon icon="mdi:star" class="text-xl"></iconify-icon>
+            <iconify-icon icon="mdi:star" class="text-xl"></iconify-icon>
+            <iconify-icon icon="mdi:star-half-full" class="text-xl"></iconify-icon>
+          </div>
+          <div class="text-gray-500">Based on 500,000+ reviews</div>
+        </div>
+        
+        <!-- Rating Distribution -->
+        <div class="md:w-2/3">
+          <div class="space-y-3">
+            <!-- 5 Stars -->
+            <div class="flex items-center">
+              <div class="w-12 text-gray-600">5 stars</div>
+              <div class="flex-1 h-3 bg-gray-200 rounded-full mx-2">
+                <div class="h-3 bg-yellow-400 rounded-full" style="width: 85%"></div>
+              </div>
+              <div class="w-12 text-gray-600 text-right">85%</div>
+            </div>
+            
+            <!-- 4 Stars -->
+            <div class="flex items-center">
+              <div class="w-12 text-gray-600">4 stars</div>
+              <div class="flex-1 h-3 bg-gray-200 rounded-full mx-2">
+                <div class="h-3 bg-yellow-400 rounded-full" style="width: 10%"></div>
+              </div>
+              <div class="w-12 text-gray-600 text-right">10%</div>
+            </div>
+            
+            <!-- 3 Stars -->
+            <div class="flex items-center">
+              <div class="w-12 text-gray-600">3 stars</div>
+              <div class="flex-1 h-3 bg-gray-200 rounded-full mx-2">
+                <div class="h-3 bg-yellow-400 rounded-full" style="width: 3%"></div>
+              </div>
+              <div class="w-12 text-gray-600 text-right">3%</div>
+            </div>
+            
+            <!-- 2 Stars -->
+            <div class="flex items-center">
+              <div class="w-12 text-gray-600">2 stars</div>
+              <div class="flex-1 h-3 bg-gray-200 rounded-full mx-2">
+                <div class="h-3 bg-yellow-400 rounded-full" style="width: 1%"></div>
+              </div>
+              <div class="w-12 text-gray-600 text-right">1%</div>
+            </div>
+            
+            <!-- 1 Star -->
+            <div class="flex items-center">
+              <div class="w-12 text-gray-600">1 star</div>
+              <div class="flex-1 h-3 bg-gray-200 rounded-full mx-2">
+                <div class="h-3 bg-yellow-400 rounded-full" style="width: 1%"></div>
+              </div>
+              <div class="w-12 text-gray-600 text-right">1%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- User Reviews -->
+    <div class="space-y-6">
+      <!-- Review 1 -->
+      <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all duration-300">
+        <div class="flex items-start mb-4">
+          <img src="https://picsum.photos/seed/user1/100/100" alt="User Avatar" class="w-12 h-12 rounded-full object-cover mr-4">
+          <div>
+            <h4 class="font-semibold text-gray-800">David Chen</h4>
+            <div class="flex text-yellow-400 mt-1">
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+            </div>
+            <div class="text-sm text-gray-500 mt-1">October 15, 2023</div>
+          </div>
+        </div>
+        <p class="text-gray-600">
+          This game is amazing! The gameplay is diverse, graphics are beautiful, and most importantly, it runs very smoothly without any lag. I've been playing for 3 months now and there are new events every day, so it never gets boring. Highly recommended for all strategy game fans!
+        </p>
+      </div>
+      
+      <!-- Review 2 -->
+      <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all duration-300">
+        <div class="flex items-start mb-4">
+          <img src="https://picsum.photos/seed/user2/100/100" alt="User Avatar" class="w-12 h-12 rounded-full object-cover mr-4">
+          <div>
+            <h4 class="font-semibold text-gray-800">Sarah Lee</h4>
+            <div class="flex text-yellow-400 mt-1">
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star-half-full"></iconify-icon>
+            </div>
+            <div class="text-sm text-gray-500 mt-1">October 10, 2023</div>
+          </div>
+        </div>
+        <p class="text-gray-600">
+          Overall experience is great. The interface design is modern and the controls are simple. The only small drawback is that sometimes it takes a while to match opponents. However, the game balance is excellent and new players can pick it up quickly. I especially love the social system where you can team up with friends.
+        </p>
+      </div>
+      
+      <!-- Review 3 -->
+      <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all duration-300">
+        <div class="flex items-start mb-4">
+          <img src="https://picsum.photos/seed/user3/100/100" alt="User Avatar" class="w-12 h-12 rounded-full object-cover mr-4">
+          <div>
+            <h4 class="font-semibold text-gray-800">Michael Wang</h4>
+            <div class="flex text-yellow-400 mt-1">
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star-outline"></iconify-icon>
+            </div>
+            <div class="text-sm text-gray-500 mt-1">October 5, 2023</div>
+          </div>
+        </div>
+        <p class="text-gray-600">
+          The gameplay is very creative. I especially like the resource collection system. The graphics aren't the most cutting-edge, but they're clear and power-efficient. I'd suggest adding more character customization options as there are currently too few. Overall, it's a game worth playing!
+        </p>
+      </div>
+      
+      <!-- Review 4 -->
+      <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all duration-300">
+        <div class="flex items-start mb-4">
+          <img src="https://picsum.photos/seed/user4/100/100" alt="User Avatar" class="w-12 h-12 rounded-full object-cover mr-4">
+          <div>
+            <h4 class="font-semibold text-gray-800">Emily Zhao</h4>
+            <div class="flex text-yellow-400 mt-1">
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+              <iconify-icon icon="mdi:star"></iconify-icon>
+            </div>
+            <div class="text-sm text-gray-500 mt-1">September 28, 2023</div>
+          </div>
+        </div>
+        <p class="text-gray-600">
+          This is one of the best strategy games I've ever played! The balance is excellent with no obvious pay-to-win advantages. The game content is rich with new events every week. Customer support is also very responsive - I had a small issue and it was resolved quickly. Highly recommended!
+        </p>
+      </div>
+    </div>
+    
+    <!-- Load More Button -->
+    <div class="text-center mt-8">
+      <button class="px-6 py-3 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-lg font-medium transition-all duration-300">
+        Load More Reviews
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- Download Section -->
+<section id="download" class="py-12">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-2xl font-bold text-gray-800 mb-6">Download Now & Start Playing</h2>
+    <p class="text-gray-600 mb-8">Available on Android, iOS - Choose your platform:</p>
+    <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8">
+      <a href="#" class="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded shadow w-full md:w-auto transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+        <iconify-icon icon="simple-icons:googleplay" class="mr-2"></iconify-icon> Google Play
+      </a>
+      <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded shadow w-full md:w-auto transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+        <iconify-icon icon="simple-icons:appstore" class="mr-2"></iconify-icon> App Store
+      </a>
+      <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white px-8 py-4 rounded shadow w-full md:w-auto transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+        <iconify-icon icon="mdi:android" class="mr-2"></iconify-icon> APK Download
+      </a>
+    </div>
+    <p class="mt-6 text-sm text-gray-500">
+      ⚠️ APK files are only available from official sources. Do not download from third-party sites!
+    </p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-8 bg-gray-800 text-white">
+  <div class="container mx-auto px-4 text-center">
+    <p class="mb-2">&copy; 2025 Box Game. All rights reserved.</p>
+    <p class="text-sm">
+      <a href="#" class="text-blue-300 hover:underline">Privacy Policy</a> | 
+      <a href="#" class="text-blue-300 hover:underline">Terms of Service</a>
+    </p>
+    <p class="text-xs text-gray-300 mt-2">
+      Reminder: Please abide by local laws and regulations and play responsibly.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
